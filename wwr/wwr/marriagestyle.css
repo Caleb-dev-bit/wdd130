@@ -1,3 +1,6 @@
+/* Import Google Fonts */
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:wght@700&family=Roboto:wght@400&display=swap');
+
 /* Global Styles */
 * {
     margin: 0;
@@ -6,7 +9,7 @@
 }
 
 body {
-    font-family: 'Arial', sans-serif;
+    font-family: 'Roboto', sans-serif;  /* Updated body font */
     background-color: #f4f4f9;
     color: #333;
     max-width: 1600px;
@@ -48,6 +51,10 @@ nav ul li a {
 nav ul li a:hover {
     color: #FFD700; /* Change to gold when hovered */
     text-decoration: none; /* Ensure underline is not added on hover */
+}
+
+h1, h2, h3 {
+    font-family: 'Playfair Display', serif;  /* Updated headline font */
 }
 
 h1 {
